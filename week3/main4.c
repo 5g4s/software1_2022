@@ -29,7 +29,7 @@ int main(){
         i = c;
         f = i;
         d = f;
-        
+
     }
     {
         int i;
@@ -39,5 +39,17 @@ int main(){
         printf("%d\n", i);
     }
 
+    float quotient;
+    int dividend = 3, divisor = 2;
+    quotient = dividend / divisor;
+    printf("%f\n", quotient);
+    quotient = (float) dividend /divisor;
+    printf("%f\n", quotient);
+
+
+    int i = -10;
+    unsigned int u = 10;
+    printf("%d\n", i < u);
+    printf("%d\n", i < (int) u);
     return 0;
 }
